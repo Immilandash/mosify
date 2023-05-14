@@ -1,12 +1,24 @@
 {
   "name": "dashify",
   "version": "1.0.0",
-  "main": "toggle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html",
+    "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milandashscripl/scriplweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/milandashscripl/scriplweb/issues"
+  },
+  "homepage": "https://github.com/milandashscripl/scriplweb#readme",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
 }
