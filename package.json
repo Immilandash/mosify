@@ -17,8 +17,7 @@
     "url": "https://github.com/milandashscripl/scriplweb/issues"
   },
   "homepage": "https://github.com/milandashscripl/scriplweb#readme",
-  "description": "",
-  "dependencies": {
-    "parcel": "^2.8.3"
-  }
+  "main": "toggle.js",
+  "devDependencies": {},
+  "description": ""
 }
