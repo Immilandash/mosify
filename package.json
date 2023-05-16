@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/milandashscripl/scriplweb#readme",
   "main": "toggle.js",
-  "devDependencies": {},
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
 }
