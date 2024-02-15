@@ -20,11 +20,11 @@ h1{
     padding: 0;
 }
 h2{
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 0;
 }
 h3{
-    font-size: 3.3rem;
+    font-size: 2.5rem;
 }
 h5{
     font-size: 1.5rem;
@@ -216,15 +216,15 @@ html{
 .hero--dark{
     background: #000;
 }
-.hero--skewed{
-    clip-path: polygon(0 1%, 100% 1%, 100% 94%, 0% 100%);
-    margin: -2rem;
-}
+/* .hero--skewed{
+    clip-path: polygon(0 1%, 100% 0%, 100% 94%, 0% 100%);
+    margin: -2rem 0;
+} */
 .grid{
     display: grid;
 }
 .hero__grid{
-    grid-template: 50fr 50fr / 100fr;
+    grid-template: 1fr 1fr / 1fr;
     padding: 0; 
 }
 .hero__heading{
@@ -255,6 +255,7 @@ html{
 .hero__grid__img{ 
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 .hero__grid__img img{
     width: 100%;
@@ -262,13 +263,14 @@ html{
 
 
 @media screen and (min-width: 900px) {
-    .hero{
+    /* .hero{
         padding: 4rem 10rem;
-    }
+    } */
     .hero__grid{
         text-align: left;
-        grid-template: 100fr / 60fr 50fr;
+        grid-template: 100fr / 1fr 1fr;
         align-items: center;
+        margin: 4rem 10rem;
     }
     .hero__btn{
         margin-top: 2rem;

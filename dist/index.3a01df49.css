@@ -27,11 +27,19 @@ h1 {
 
 h2 {
   padding: 0;
+<<<<<<< HEAD
   font-size: 5rem;
 }
 
 h3 {
   font-size: 3.3rem;
+=======
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+>>>>>>> 60369fa94e7a367ca00d75267ba70a1b3ac51d2c
 }
 
 h5 {
@@ -243,17 +251,24 @@ html {
   background: #000;
 }
 
+<<<<<<< HEAD
 .hero--skewed {
   clip-path: polygon(0 1%, 100% 1%, 100% 94%, 0% 100%);
   margin: -2rem;
 }
 
+=======
+>>>>>>> 60369fa94e7a367ca00d75267ba70a1b3ac51d2c
 .grid {
   display: grid;
 }
 
 .hero__grid {
+<<<<<<< HEAD
   grid-template: 50fr 50fr / 100fr;
+=======
+  grid-template: 1fr 1fr / 1fr;
+>>>>>>> 60369fa94e7a367ca00d75267ba70a1b3ac51d2c
   padding: 0;
 }
 
@@ -291,6 +306,10 @@ html {
 .hero__grid__img {
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
+=======
+  overflow: hidden;
+>>>>>>> 60369fa94e7a367ca00d75267ba70a1b3ac51d2c
 }
 
 .hero__grid__img img {
@@ -298,6 +317,7 @@ html {
 }
 
 @media screen and (width >= 900px) {
+<<<<<<< HEAD
   .hero {
     padding: 4rem 10rem;
   }
@@ -306,6 +326,13 @@ html {
     text-align: left;
     grid-template: 100fr / 60fr 50fr;
     align-items: center;
+=======
+  .hero__grid {
+    text-align: left;
+    grid-template: 100fr / 1fr 1fr;
+    align-items: center;
+    margin: 4rem 10rem;
+>>>>>>> 60369fa94e7a367ca00d75267ba70a1b3ac51d2c
   }
 
   .hero__btn {
